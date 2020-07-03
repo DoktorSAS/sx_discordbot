@@ -1,8 +1,10 @@
-# SXDiscordBot Version 1.0
+# SXAccountManager Version 1.0
     Code Developed by DoktorSAS - Join in Sorex Discord To Report Any BUGS
     Version 1.0
-    Description: This is a discord bot that allows you to log everything that happens on the server if you use SXAdminTool
-    
+    Description: This is a simple system to manage users who have multiple accounts, this resource provides a very simple 
+                  registration and login system. By adding sx_discordbot you can enable verification of a user via a PIN generated 
+                  by the resource. In fact, if the PIN option is enabled you will be able to log in if and only if you know your PIN 
+                  that you can request with a command from the bot.
     How to use it?
     1. load the file.sql to create the new needed table
     2. Write on server.cfg the command to start the resource (start resource_name or ensure resource_name)
@@ -13,7 +15,47 @@
     Instagram: @SorexProject -> https://www.instagram.com/sorexproject/
     Youtube: SorexProject -> https://www.youtube.com/channel/UCP1SC3K8rg3fLAeRFlkM6cg
     
-    If you want Donate to the project Donate to https://www.paypal.me/SorexProject
+    If you want Donate to the project Donate to https://www.paypal.me/SorexProject 
+
+# Account Manager LOGIN & REGISTER
+   Code Developed by DoktorSAS 
+   If you don't want Account Manager for your Server don't start sx_accountmanager*
+   in your *server.cfg*
+  
+## Dependency
+1. [sx_admintool](https://pages.github.com/). - Possibly use the **latest version** of the sx_admintool
+
+## How to start this resource?
+1. Put the folder in your resource, if you can, then put it in a folder called "[SX]"
+2. Import the file.sql into your database
+3. Start mysql_node.bat to use the DiscordBOT 
+In your *server.cfg* write
+```
+start sx_accountmanager
+```
+or
+```
+ensure sx_accountmanager
+```
+
+
+## Important 
+
+**Without the discord BOT the PIN verificaion can't be used**
+## Needed
+1. [node.js](https://nodejs.org/)
+## How to start the bot?
+1. Open *start.bat* inside the folder (if the bat doesn't work, then continue to the next point) 
+2.Open CMD from the folder or go into the discord bot folder using `cd path` Type `node .` in the CMD to start the bot
+
+![CMD](https://cdn.discordapp.com/attachments/711947899944173589/723519872499318784/unknown.png)
+
+![Login](https://cdn.discordapp.com/attachments/711947899944173589/723513505507967026/unknown.png)
+
+![Register](https://cdn.discordapp.com/attachments/711947899944173589/723516937291956234/unknown.png)
+
+[![Video](https://cdn.discordapp.com/attachments/711947899944173589/723513505507967026/unknown.png)](https://www.youtube.com/watch?v=_Yp1mTTxqng&t=81s)
+
 
 # License
 
