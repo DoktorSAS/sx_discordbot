@@ -49,7 +49,7 @@ connection.connect(err => {
     }
 });
 
-const token = 'NzIxNjY2ODIyNDYxNzE4NTM5.XvsLvA.ZW-lmkjaTtZz6Vs4aakxaym336k';
+const token = 'YOURTOKEN';
 
 const prefix = 'sx!';
 
